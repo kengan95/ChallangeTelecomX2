@@ -1,1 +1,58 @@
 # ChallangeTelecomX2
+
+## Misión
+
+Contribuir a la retención de clientes de empresas de telecomunicaciones mediante la identificación proactiva de aquellos con alta probabilidad de cancelación (churn), permitiendo la implementación de estrategias de retención dirigidas y efectivas.
+
+## Objetivo del Desafío
+
+El objetivo principal de este desafío es desarrollar y evaluar modelos de machine learning capaces de predecir la cancelación de clientes basándose en datos históricos de comportamiento y características demográficas. Se busca identificar los factores clave que influyen en el churn y proponer recomendaciones para la empresa.
+
+## Descripción del Proyecto
+
+Este proyecto aborda el problema de la cancelación de clientes (churn) en el sector de telecomunicaciones. Se utiliza un conjunto de datos de clientes para construir modelos predictivos que permitan identificar a los clientes en riesgo de irse. El análisis incluye la preparación de los datos, la exploración de variables relevantes, la creación y evaluación de diferentes modelos de clasificación, y la interpretación de los resultados para obtener insights accionables.
+
+## Contenido
+
+El repositorio contiene:
+
+*   `datos_tratados.csv`: Archivo CSV con los datos de clientes preprocesados en una etapa anterior.
+*   Notebook de Jupyter/Colab: Contiene el código Python para la carga, preprocesamiento, análisis exploratorio, modelado predictivo y evaluación de los modelos.
+*   `README.md`: Este archivo, que describe el proyecto.
+
+## Objetivo
+
+El objetivo técnico es construir un modelo de clasificación robusto que pueda predecir la probabilidad de que un cliente cancele su servicio, con un enfoque en métricas relevantes para problemas de desbalance de clases como Recall y F1-score. El objetivo de negocio es proporcionar insights que permitan a la empresa reducir su tasa de churn.
+
+## Estructura del Proyecto
+
+El notebook sigue la siguiente estructura:
+
+1.  **Preparación de los Datos:** Carga del dataset, eliminación de columnas irrelevantes, codificación de variables categóricas y manejo de datos faltantes.
+2.  **Correlación y Selección de Variables:** Análisis de la relación entre las variables y la variable objetivo (cancelación), y selección de las características más relevantes.
+3.  **Modelado Predictivo:** División de los datos en conjuntos de entrenamiento y prueba, creación y entrenamiento de modelos de clasificación (por ejemplo, Random Forest, Árbol de Decisión), y optimización de hiperparámetros.
+4.  **Interpretación y Conclusiones:** Evaluación de los modelos utilizando métricas clave (Exactitud, Precisión, Recall, F1-score, Matriz de Confusión), análisis de la importancia de las variables en los modelos seleccionados y extracción de conclusiones y recomendaciones.
+
+## Tecnologías Usadas
+
+*   Python
+*   Pandas (para manipulación de datos)
+*   NumPy (para operaciones numéricas)
+*   Matplotlib y Seaborn (para visualización de datos)
+*   Scikit-learn (para modelado y evaluación de machine learning)
+*   Imbalanced-learn (para manejo de desbalance de clases, si aplica)
+
+## Cómo Usar Este Repositorio
+
+1.  Clona el repositorio: `git clone [URL del repositorio]`
+2.  Abre el notebook (en Google Colab o un entorno local de Jupyter).
+3.  Asegúrate de tener el archivo `datos_tratados.csv` en la ubicación correcta o actualiza la ruta en el código.
+4.  Ejecuta las celdas del notebook secuencialmente para replicar el análisis y los resultados.
+
+## Conclusiones
+
+[Basado en el análisis final de los modelos, resume las conclusiones clave aquí. Por ejemplo: Los clientes con contratos mes a mes y menor antigüedad son más propensos a cancelar. El modelo X demostró ser el más efectivo para identificar cancelaciones potenciales debido a su alto Recall/F1-score.]
+
+## Recomendaciones
+
+[Proporciona recomendaciones accionables para la empresa basadas en los hallazgos. Por ejemplo: Implementar programas de retención temprana, ofrecer incentivos para contratos a largo plazo, mejorar la experiencia del cliente en los primeros meses, segmentar a los clientes de alto riesgo para campañas específicas.]
