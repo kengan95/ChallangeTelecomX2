@@ -51,8 +51,19 @@ El notebook sigue la siguiente estructura:
 
 ## Conclusiones
 
-[Basado en el análisis final de los modelos, resume las conclusiones clave aquí. Por ejemplo: Los clientes con contratos mes a mes y menor antigüedad son más propensos a cancelar. El modelo X demostró ser el más efectivo para identificar cancelaciones potenciales debido a su alto Recall/F1-score.]
+Basándonos en el análisis de los datos, la construcción y evaluación de los modelos predictivos de cancelación, y la interpretación de la importancia de las variables, podemos extraer las siguientes conclusiones clave sobre los factores que más influyen en la cancelación de clientes y proponer estrategias de retención:
+
+*   **Factores Clave que Influyen en la Cancelación:** El análisis exploratorio y la importancia de variables consistentemente destacaron que los clientes con **menos meses de contrato** y aquellos con **contratos mes a mes** tienen una probabilidad significativamente mayor de cancelar. Los clientes con **gastos totales acumulados más bajos** también mostraron una mayor propensión a la cancelación. Otras variables importantes incluyeron el tipo de proveedor de internet (Fibra Óptica) y el método de pago (Cheque Electrónico).
+
+*   **Rendimiento del Modelo Seleccionado:** El modelo de **Árbol de Decisión optimizado** fue identificado como el más adecuado para este problema, principalmente por su mejor **Recall** y **F1-score**. Esto significa que este modelo es más efectivo para identificar correctamente a los clientes que *realmente* van a cancelar, lo cual es fundamental para poder intervenir a tiempo con estrategias de retención.
 
 ## Recomendaciones
 
-[Proporciona recomendaciones accionables para la empresa basadas en los hallazgos. Por ejemplo: Implementar programas de retención temprana, ofrecer incentivos para contratos a largo plazo, mejorar la experiencia del cliente en los primeros meses, segmentar a los clientes de alto riesgo para campañas específicas.]
+Basándonos en los factores de cancelación identificados, se proponen las siguientes estrategias de retención:
+
+*   **Programas de Bienvenida y Seguimiento Temprano:** Implementar un programa proactivo para los nuevos clientes, especialmente aquellos con contratos mes a mes, durante sus primeros meses. Esto podría incluir llamadas de seguimiento, ofertas especiales para contratos a más largo plazo después de un período inicial, o soporte técnico prioritario para asegurar una experiencia positiva desde el principio.
+*   **Incentivos para Clientes de Bajo Gasto o Corta Antigüedad:** Ofrecer promociones o beneficios a clientes con bajo gasto total o poca antigüedad para incentivarlos a utilizar más servicios o a comprometerse con contratos más largos. Esto podría aumentar su valor para la empresa y reducir su riesgo de cancelación.
+*   **Análisis Profundo de la Experiencia del Cliente en Puntos Críticos:** Investigar las razones específicas por las que los clientes con contratos cortos o bajo gasto total cancelan. Realizar encuestas de salida o análisis de comentarios para identificar problemas recurrentes en la experiencia del cliente (por ejemplo, problemas de facturación, calidad del servicio, atención al cliente) que puedan abordarse.
+*   **Segmentación y Ofertas Personalizadas:** Utilizar los modelos predictivos para identificar a los clientes con alto riesgo de cancelación en función de los factores clave y ofrecerles estrategias de retención personalizadas. Esto podría incluir descuentos, mejoras de servicio, o soporte dedicado.
+
+Al enfocarse en estos factores clave y aplicar estrategias de retención basadas en el análisis predictivo, la empresa puede trabajar de manera más efectiva para reducir la tasa de cancelación de clientes.
